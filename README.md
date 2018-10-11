@@ -39,6 +39,8 @@ population has to greater than 1 and less than 10 billion , i.e. 1 <= p <= 10^12
 I didn't exactly create 1 function called getCountries(), it's kinda pointless. 
 You can find everything in ```site/assets/js_import/country_search.js```
 
+for query string, ```s``` is for search, ```p``` is for maxPopulation, ```page``` is for page. ```maxPopulation``` is also a variable defined in ```index.html```
+
 most of the styling is from Boostrap
 
 I only use Babel for ES6 compiling. I had the impression that you wanted me to use React, but by the time I realize that I already almost finished the test. Please let me know if you want a react version of this.
